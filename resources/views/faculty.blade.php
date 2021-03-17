@@ -17,7 +17,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link active" href="/contact">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/faculty">Faculty</a>
@@ -36,15 +36,23 @@
             <div class="col col-8 col-sm-8 col-md-6 col-lg-6 col-xl-6">
             <table class="table">
                 <tr>
-                    <td>NAME</td>
+                    <td>FACULTY NAME</td>
                     <td><input type="text" class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>ROLL NO</td>
+                    <td>DEPARTMENT</td>
                     <td><input type="text" class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>ADMISSION NO</td>
+                    <td>ADDRESS</td>
+                    <td><input type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>PHONE NO</td>
+                    <td><input type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>EDUCATIONAL QUALIFICATION</td>
                     <td><input type="text" class="form-control"></td>
                 </tr>
                 <tr>
@@ -55,8 +63,7 @@
                     <td></td>
                     <td><button class="btn btn-outline-success">SUBMIT</button></td>
                 </tr>
-            </table>
-            </div>
+            </table></div>
             <div class="col col-2 col-sm-2 col-md-3 col-lg-3 col-xl-3"></div>
         </div>
     </div>
